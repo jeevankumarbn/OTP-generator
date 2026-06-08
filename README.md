@@ -1,1 +1,3 @@
-# OTP-generator
+import random
+pin = random.randint(1000, 9999)
+print("Your Pin is : " , pin)
